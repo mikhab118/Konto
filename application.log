@@ -1,0 +1,830 @@
+2024-07-19T08:38:15.092+02:00  INFO 8148 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 8148 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T08:38:15.092+02:00  INFO 8148 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T08:38:15.157+02:00  INFO 8148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T08:38:15.157+02:00  INFO 8148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T08:38:16.288+02:00  INFO 8148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T08:38:16.398+02:00  INFO 8148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2024-07-19T08:38:17.454+02:00  INFO 8148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T08:38:17.485+02:00  INFO 8148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T08:38:17.485+02:00  INFO 8148 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T08:38:17.533+02:00  INFO 8148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T08:38:17.533+02:00  INFO 8148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2376 ms
+2024-07-19T08:38:17.925+02:00  INFO 8148 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T08:38:18.004+02:00  INFO 8148 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T08:38:18.050+02:00  INFO 8148 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T08:38:18.381+02:00  INFO 8148 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T08:38:18.412+02:00  INFO 8148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T08:38:18.585+02:00  INFO 8148 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5107017f
+2024-07-19T08:38:18.585+02:00  INFO 8148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T08:38:18.643+02:00  WARN 8148 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T08:38:19.410+02:00  INFO 8148 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T08:38:19.441+02:00  WARN 8148 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T08:38:19.441+02:00  WARN 8148 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T08:38:19.495+02:00  INFO 8148 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T08:38:19.967+02:00  WARN 8148 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T08:38:19.998+02:00  WARN 8148 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 370dd8c3-0bbc-4d9b-ac50-5296f4eefd67
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T08:38:20.014+02:00  INFO 8148 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T08:38:20.423+02:00  INFO 8148 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T08:38:20.925+02:00  INFO 8148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T08:38:21.019+02:00  INFO 8148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T08:38:21.035+02:00  INFO 8148 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.635 seconds (process running for 7.191)
+2024-07-19T08:38:42.057+02:00  INFO 8148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T08:38:42.057+02:00  INFO 8148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T08:38:42.057+02:00  INFO 8148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-19T08:52:52.382+02:00  INFO 8148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T08:52:52.397+02:00  INFO 8148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T08:52:52.397+02:00  INFO 8148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T08:52:56.424+02:00  INFO 20484 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 20484 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T08:52:56.424+02:00  INFO 20484 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T08:52:56.474+02:00  INFO 20484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T08:52:56.474+02:00  INFO 20484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T08:52:57.534+02:00  INFO 20484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T08:52:57.657+02:00  INFO 20484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
+2024-07-19T08:52:58.645+02:00  INFO 20484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T08:52:58.668+02:00  INFO 20484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T08:52:58.668+02:00  INFO 20484 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T08:52:58.716+02:00  INFO 20484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T08:52:58.716+02:00  INFO 20484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2237 ms
+2024-07-19T08:52:59.154+02:00  INFO 20484 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T08:52:59.209+02:00  INFO 20484 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T08:52:59.246+02:00  INFO 20484 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T08:52:59.514+02:00  INFO 20484 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T08:52:59.522+02:00  INFO 20484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T08:52:59.701+02:00  INFO 20484 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24969a01
+2024-07-19T08:52:59.701+02:00  INFO 20484 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T08:52:59.733+02:00  WARN 20484 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T08:53:00.408+02:00  INFO 20484 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T08:53:00.430+02:00  WARN 20484 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T08:53:00.434+02:00  WARN 20484 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T08:53:00.450+02:00  INFO 20484 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T08:53:00.909+02:00  WARN 20484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T08:53:00.951+02:00  WARN 20484 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5b593eec-ac9a-43bf-aad0-71c1e438df47
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T08:53:00.951+02:00  INFO 20484 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T08:53:01.315+02:00  INFO 20484 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T08:53:01.794+02:00  INFO 20484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T08:53:01.883+02:00  INFO 20484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T08:53:01.905+02:00  INFO 20484 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.963 seconds (process running for 6.456)
+2024-07-19T08:53:08.935+02:00  INFO 20484 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T08:53:08.935+02:00  INFO 20484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T08:53:08.935+02:00  INFO 20484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-19T09:26:42.261+02:00  INFO 20484 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:26:42.276+02:00  INFO 20484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:26:42.276+02:00  INFO 20484 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:26:45.814+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 8976 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:26:45.814+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:26:45.863+02:00  INFO 8976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:26:45.863+02:00  INFO 8976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:26:46.904+02:00  INFO 8976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:26:46.998+02:00  INFO 8976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-07-19T09:26:48.108+02:00  INFO 8976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:26:48.108+02:00  INFO 8976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:26:48.108+02:00  INFO 8976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:26:48.154+02:00  INFO 8976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:26:48.154+02:00  INFO 8976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2291 ms
+2024-07-19T09:26:48.629+02:00  INFO 8976 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:26:48.710+02:00  INFO 8976 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:26:48.756+02:00  INFO 8976 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:26:48.945+02:00  INFO 8976 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:26:48.975+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:26:49.133+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24b3c049
+2024-07-19T09:26:49.133+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:26:49.166+02:00  WARN 8976 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:26:49.862+02:00  INFO 8976 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:26:49.862+02:00  WARN 8976 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:26:49.862+02:00  WARN 8976 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:26:49.893+02:00  INFO 8976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:26:50.304+02:00  WARN 8976 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:26:50.367+02:00  WARN 8976 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cf60124b-5168-416d-8f73-e3a662985746
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:26:50.383+02:00  INFO 8976 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:26:50.810+02:00  INFO 8976 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:26:51.349+02:00  INFO 8976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:26:51.428+02:00  INFO 8976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:26:51.443+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.14 seconds (process running for 6.676)
+2024-07-19T09:26:54.997+02:00  INFO 8976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:26:54.997+02:00  INFO 8976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:26:54.997+02:00  INFO 8976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-19T09:30:28.294+02:00  INFO 8976 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 12 class path changes (0 additions, 12 deletions, 0 modifications)
+2024-07-19T09:30:28.321+02:00  INFO 8976 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:28.330+02:00  INFO 8976 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:30:28.337+02:00  INFO 8976 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:30:38.602+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 8976 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:30:38.602+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:30:38.895+02:00  INFO 8976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:30:38.904+02:00  INFO 8976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-19T09:30:39.058+02:00  INFO 8976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:30:39.059+02:00  INFO 8976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:30:39.060+02:00  INFO 8976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:30:39.130+02:00  INFO 8976 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:30:39.130+02:00  INFO 8976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 526 ms
+2024-07-19T09:30:39.251+02:00  INFO 8976 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:30:39.254+02:00  INFO 8976 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:30:39.263+02:00  INFO 8976 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:30:39.264+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-19T09:30:39.308+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@4696dd38
+2024-07-19T09:30:39.309+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-19T09:30:39.317+02:00  WARN 8976 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:30:39.356+02:00  INFO 8976 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:30:39.357+02:00  WARN 8976 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:30:39.357+02:00  WARN 8976 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:30:39.372+02:00  INFO 8976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:39.487+02:00  WARN 8976 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:30:39.511+02:00  WARN 8976 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8126ffe6-1817-473c-9d04-055b7c33a971
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:30:39.512+02:00  INFO 8976 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:30:39.619+02:00  INFO 8976 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:30:39.795+02:00  INFO 8976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:30:39.808+02:00  INFO 8976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:30:39.814+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 1.246 seconds (process running for 235.04)
+2024-07-19T09:30:39.817+02:00  INFO 8976 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-19T09:30:41.211+02:00  INFO 8976 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (9 additions, 0 deletions, 0 modifications)
+2024-07-19T09:30:41.224+02:00  INFO 8976 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:41.229+02:00  INFO 8976 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-19T09:30:41.238+02:00  INFO 8976 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-07-19T09:30:41.336+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 8976 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:30:41.337+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:30:41.576+02:00  INFO 8976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:30:41.586+02:00  INFO 8976 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-07-19T09:30:41.665+02:00  INFO 15160 --- [main] c.example.Konto.KontoApplicationTests    : Starting KontoApplicationTests using Java 22.0.1 with PID 15160 (started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:30:41.666+02:00  INFO 15160 --- [main] c.example.Konto.KontoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:30:41.715+02:00  INFO 8976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:30:41.716+02:00  INFO 8976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:30:41.716+02:00  INFO 8976 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:30:41.733+02:00  INFO 8976 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:30:41.733+02:00  INFO 8976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 394 ms
+2024-07-19T09:30:41.828+02:00  INFO 8976 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:30:41.830+02:00  INFO 8976 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:30:41.838+02:00  INFO 8976 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:30:41.839+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-07-19T09:30:41.893+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@3f387b4a
+2024-07-19T09:30:41.893+02:00  INFO 8976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-07-19T09:30:41.900+02:00  WARN 8976 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:30:41.930+02:00  INFO 8976 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:30:41.931+02:00  WARN 8976 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:30:41.931+02:00  WARN 8976 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:30:41.948+02:00  INFO 8976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:42.022+02:00  WARN 8976 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:30:42.041+02:00  WARN 8976 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 208d6ccb-c8cd-4f86-b21d-d32da03596b8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:30:42.043+02:00  INFO 8976 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:30:42.132+02:00  INFO 8976 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:30:42.294+02:00  INFO 8976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:30:42.306+02:00  INFO 8976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:30:42.309+02:00  INFO 8976 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 0.996 seconds (process running for 237.535)
+2024-07-19T09:30:42.311+02:00  INFO 8976 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-19T09:30:42.624+02:00  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:30:42.721+02:00  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2024-07-19T09:30:43.439+02:00  INFO 15160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:30:43.498+02:00  INFO 15160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:30:43.534+02:00  INFO 15160 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:30:43.836+02:00  INFO 15160 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:30:43.861+02:00  INFO 15160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:30:44.068+02:00  INFO 15160 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62a41279
+2024-07-19T09:30:44.070+02:00  INFO 15160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:30:44.128+02:00  WARN 15160 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:30:44.945+02:00  INFO 15160 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:30:44.999+02:00  INFO 15160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:45.594+02:00  WARN 15160 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:30:45.667+02:00  WARN 15160 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 55cc9163-bb66-4548-9bdd-e03f10ce263b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:30:45.677+02:00  INFO 15160 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:30:46.470+02:00  INFO 15160 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:30:47.215+02:00  INFO 15160 --- [main] c.example.Konto.KontoApplicationTests    : Started KontoApplicationTests in 6.012 seconds (process running for 6.991)
+2024-07-19T09:30:47.839+02:00  INFO 15160 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:47.849+02:00  INFO 15160 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:30:47.857+02:00  INFO 15160 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:30:55.117+02:00  INFO 8976 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:30:55.118+02:00  WARN 8976 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:30:55.118+02:00  WARN 8976 --- [SpringApplicationShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:30:55.119+02:00  INFO 8976 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-07-19T09:30:55.121+02:00  INFO 8976 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-07-19T09:30:58.683+02:00  INFO 11468 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 11468 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:30:58.684+02:00  INFO 11468 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:30:58.729+02:00  INFO 11468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:30:58.729+02:00  INFO 11468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:30:59.778+02:00  INFO 11468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:30:59.875+02:00  INFO 11468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-07-19T09:31:00.896+02:00  INFO 11468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:31:00.915+02:00  INFO 11468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:31:00.916+02:00  INFO 11468 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:31:00.968+02:00  INFO 11468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:31:00.969+02:00  INFO 11468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2240 ms
+2024-07-19T09:31:01.388+02:00  INFO 11468 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:31:01.439+02:00  INFO 11468 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:31:01.499+02:00  INFO 11468 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:31:01.824+02:00  INFO 11468 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:31:01.846+02:00  INFO 11468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:31:02.027+02:00  INFO 11468 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28394c4c
+2024-07-19T09:31:02.029+02:00  INFO 11468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:31:02.060+02:00  WARN 11468 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:31:02.728+02:00  INFO 11468 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:31:02.741+02:00  WARN 11468 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:31:02.742+02:00  WARN 11468 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:31:02.760+02:00  INFO 11468 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:31:03.193+02:00  WARN 11468 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:31:03.243+02:00  WARN 11468 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 462fb98c-9e2f-457b-bbbe-1f0118387c94
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:31:03.255+02:00  INFO 11468 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:31:03.685+02:00  INFO 11468 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:31:04.121+02:00  INFO 11468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:31:04.215+02:00  INFO 11468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:31:04.229+02:00  INFO 11468 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.046 seconds (process running for 6.604)
+2024-07-19T09:31:07.888+02:00  INFO 11468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:31:07.888+02:00  INFO 11468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:31:07.889+02:00  INFO 11468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:38:03.044+02:00  INFO 11468 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:38:03.053+02:00  INFO 11468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:38:03.057+02:00  INFO 11468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:38:06.993+02:00  INFO 2404 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 2404 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:38:06.995+02:00  INFO 2404 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:38:07.041+02:00  INFO 2404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:38:07.042+02:00  INFO 2404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:38:08.115+02:00  INFO 2404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:38:08.214+02:00  INFO 2404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2024-07-19T09:38:09.399+02:00  INFO 2404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:38:09.416+02:00  INFO 2404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:38:09.417+02:00  INFO 2404 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:38:09.470+02:00  INFO 2404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:38:09.471+02:00  INFO 2404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2429 ms
+2024-07-19T09:38:10.010+02:00  INFO 2404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:38:10.083+02:00  INFO 2404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:38:10.125+02:00  INFO 2404 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:38:10.448+02:00  INFO 2404 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:38:10.466+02:00  INFO 2404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:38:10.649+02:00  INFO 2404 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4adc5311
+2024-07-19T09:38:10.651+02:00  INFO 2404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:38:10.679+02:00  WARN 2404 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:38:11.479+02:00  INFO 2404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:38:11.497+02:00  WARN 2404 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:38:11.497+02:00  WARN 2404 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:38:11.519+02:00  INFO 2404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:38:12.007+02:00  WARN 2404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:38:12.071+02:00  WARN 2404 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2a3515fa-dd20-47aa-a526-2f3acb44de9f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:38:12.091+02:00  INFO 2404 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:38:12.510+02:00  INFO 2404 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:38:13.079+02:00  INFO 2404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:38:13.166+02:00  INFO 2404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:38:13.187+02:00  INFO 2404 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.677 seconds (process running for 7.165)
+2024-07-19T09:38:13.345+02:00  INFO 2404 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:38:13.346+02:00  INFO 2404 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:38:13.347+02:00  INFO 2404 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:41:53.636+02:00  INFO 2404 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:41:53.644+02:00  INFO 2404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:41:53.650+02:00  INFO 2404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:41:55.783+02:00  INFO 8196 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 8196 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:41:55.784+02:00  INFO 8196 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:41:55.832+02:00  INFO 8196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:41:55.832+02:00  INFO 8196 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:41:56.858+02:00  INFO 8196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:41:56.959+02:00  INFO 8196 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2024-07-19T09:41:58.139+02:00  INFO 8196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:41:58.164+02:00  INFO 8196 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:41:58.164+02:00  INFO 8196 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:41:58.214+02:00  INFO 8196 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:41:58.215+02:00  INFO 8196 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2382 ms
+2024-07-19T09:41:58.735+02:00  INFO 8196 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:41:58.796+02:00  INFO 8196 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:41:58.834+02:00  INFO 8196 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:41:59.097+02:00  INFO 8196 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:41:59.115+02:00  INFO 8196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:41:59.267+02:00  INFO 8196 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65038422
+2024-07-19T09:41:59.268+02:00  INFO 8196 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:41:59.291+02:00  WARN 8196 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:41:59.988+02:00  INFO 8196 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:42:00.005+02:00  WARN 8196 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:42:00.006+02:00  WARN 8196 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:42:00.028+02:00  INFO 8196 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:42:00.442+02:00  WARN 8196 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:42:00.490+02:00  WARN 8196 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6a75de08-f0d5-4266-ae50-08eae2a5ab7b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:42:00.498+02:00  INFO 8196 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:42:00.905+02:00  INFO 8196 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:42:01.562+02:00  INFO 8196 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:42:01.681+02:00  INFO 8196 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:42:01.698+02:00  INFO 8196 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.437 seconds (process running for 6.995)
+2024-07-19T09:42:05.597+02:00  INFO 8196 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:42:05.597+02:00  INFO 8196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:42:05.598+02:00  INFO 8196 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:44:15.664+02:00  INFO 8196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:44:15.671+02:00  INFO 8196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:44:15.676+02:00  INFO 8196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:44:18.943+02:00  INFO 12992 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 12992 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:44:18.945+02:00  INFO 12992 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:44:18.991+02:00  INFO 12992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:44:18.991+02:00  INFO 12992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:44:20.023+02:00  INFO 12992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:44:20.113+02:00  INFO 12992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-07-19T09:44:21.168+02:00  INFO 12992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:44:21.186+02:00  INFO 12992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:44:21.186+02:00  INFO 12992 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:44:21.237+02:00  INFO 12992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:44:21.237+02:00  INFO 12992 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2246 ms
+2024-07-19T09:44:21.708+02:00  INFO 12992 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:44:21.755+02:00  INFO 12992 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:44:21.784+02:00  INFO 12992 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:44:22.075+02:00  INFO 12992 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:44:22.092+02:00  INFO 12992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:44:22.261+02:00  INFO 12992 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71516e1f
+2024-07-19T09:44:22.262+02:00  INFO 12992 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:44:22.288+02:00  WARN 12992 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:44:22.939+02:00  INFO 12992 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:44:22.951+02:00  WARN 12992 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:44:22.951+02:00  WARN 12992 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:44:22.972+02:00  INFO 12992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:44:23.366+02:00  WARN 12992 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:44:23.423+02:00  WARN 12992 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 47ab365d-271c-4655-8ea0-fdaefb534500
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:44:23.432+02:00  INFO 12992 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:44:23.841+02:00  INFO 12992 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:44:24.345+02:00  INFO 12992 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:44:24.420+02:00  INFO 12992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:44:24.436+02:00  INFO 12992 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.985 seconds (process running for 6.418)
+2024-07-19T09:44:28.910+02:00  INFO 12992 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:44:28.910+02:00  INFO 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:44:28.912+02:00  INFO 12992 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:45:01.134+02:00  INFO 12992 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:45:01.143+02:00  INFO 12992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:45:01.149+02:00  INFO 12992 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:45:04.422+02:00  INFO 8676 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 8676 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:45:04.424+02:00  INFO 8676 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:45:04.470+02:00  INFO 8676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:45:04.470+02:00  INFO 8676 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:45:05.479+02:00  INFO 8676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:45:05.577+02:00  INFO 8676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2024-07-19T09:45:06.620+02:00  INFO 8676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:45:06.636+02:00  INFO 8676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:45:06.637+02:00  INFO 8676 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:45:06.685+02:00  INFO 8676 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:45:06.685+02:00  INFO 8676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2215 ms
+2024-07-19T09:45:07.336+02:00  INFO 8676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:45:07.411+02:00  INFO 8676 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:45:07.454+02:00  INFO 8676 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:45:07.760+02:00  INFO 8676 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:45:07.777+02:00  INFO 8676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:45:07.948+02:00  INFO 8676 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28394c4c
+2024-07-19T09:45:07.949+02:00  INFO 8676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:45:07.980+02:00  WARN 8676 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:45:08.728+02:00  INFO 8676 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:45:08.742+02:00  WARN 8676 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:45:08.743+02:00  WARN 8676 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:45:08.763+02:00  INFO 8676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:45:09.231+02:00  WARN 8676 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:45:09.300+02:00  WARN 8676 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6e48080f-af77-4684-9c8a-463f77507cd1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:45:09.315+02:00  INFO 8676 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:45:09.839+02:00  INFO 8676 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:45:10.508+02:00  INFO 8676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:45:10.589+02:00  INFO 8676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:45:10.609+02:00  INFO 8676 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.719 seconds (process running for 7.208)
+2024-07-19T09:45:15.427+02:00  INFO 8676 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:45:15.427+02:00  INFO 8676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:45:15.429+02:00  INFO 8676 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:49:22.159+02:00  INFO 8676 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:49:22.168+02:00  INFO 8676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:49:22.174+02:00  INFO 8676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:49:25.462+02:00  INFO 14488 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 14488 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:49:25.465+02:00  INFO 14488 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:49:25.516+02:00  INFO 14488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:49:25.516+02:00  INFO 14488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:49:26.598+02:00  INFO 14488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:49:26.701+02:00  INFO 14488 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-07-19T09:49:27.716+02:00  INFO 14488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:49:27.742+02:00  INFO 14488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:49:27.743+02:00  INFO 14488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:49:27.793+02:00  INFO 14488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:49:27.793+02:00  INFO 14488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2276 ms
+2024-07-19T09:49:28.296+02:00  INFO 14488 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:49:28.360+02:00  INFO 14488 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:49:28.411+02:00  INFO 14488 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:49:28.713+02:00  INFO 14488 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:49:28.751+02:00  INFO 14488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:49:28.901+02:00  INFO 14488 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28394c4c
+2024-07-19T09:49:28.902+02:00  INFO 14488 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:49:28.932+02:00  WARN 14488 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:49:29.622+02:00  INFO 14488 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:49:29.635+02:00  WARN 14488 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:49:29.635+02:00  WARN 14488 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:49:29.653+02:00  INFO 14488 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:49:30.078+02:00  WARN 14488 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:49:30.123+02:00  WARN 14488 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5dff5b16-98ea-41ba-8afe-0689fdfe63ac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:49:30.130+02:00  INFO 14488 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:49:30.561+02:00  INFO 14488 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:49:31.097+02:00  INFO 14488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:49:31.184+02:00  INFO 14488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:49:31.202+02:00  INFO 14488 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.249 seconds (process running for 6.704)
+2024-07-19T09:51:10.110+02:00  INFO 14488 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:51:10.117+02:00  INFO 14488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:51:10.127+02:00  INFO 14488 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:51:14.482+02:00  INFO 21232 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 21232 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:51:14.484+02:00  INFO 21232 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:51:14.535+02:00  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:51:14.536+02:00  INFO 21232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:51:15.551+02:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:51:15.644+02:00  INFO 21232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-07-19T09:51:16.664+02:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:51:16.691+02:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:51:16.692+02:00  INFO 21232 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:51:16.750+02:00  INFO 21232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:51:16.751+02:00  INFO 21232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2215 ms
+2024-07-19T09:51:17.245+02:00  INFO 21232 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:51:17.298+02:00  INFO 21232 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:51:17.327+02:00  INFO 21232 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:51:17.666+02:00  INFO 21232 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:51:17.686+02:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:51:17.944+02:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13f87cea
+2024-07-19T09:51:17.945+02:00  INFO 21232 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:51:17.968+02:00  WARN 21232 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:51:18.625+02:00  INFO 21232 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:51:18.638+02:00  WARN 21232 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:51:18.638+02:00  WARN 21232 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:51:18.654+02:00  INFO 21232 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:51:19.066+02:00  WARN 21232 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:51:19.133+02:00  WARN 21232 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 19c5156d-591a-48e6-bdab-ad55f01fc47d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:51:19.141+02:00  INFO 21232 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:51:19.534+02:00  INFO 21232 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:51:19.991+02:00  INFO 21232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:51:20.072+02:00  INFO 21232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:51:20.086+02:00  INFO 21232 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.143 seconds (process running for 6.607)
+2024-07-19T09:51:25.051+02:00  INFO 21232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:51:25.052+02:00  INFO 21232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:51:25.053+02:00  INFO 21232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:52:31.675+02:00  INFO 21232 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:52:31.686+02:00  INFO 21232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:52:31.690+02:00  INFO 21232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:52:34.940+02:00  INFO 11500 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 11500 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:52:34.942+02:00  INFO 11500 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:52:34.987+02:00  INFO 11500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:52:34.987+02:00  INFO 11500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:52:36.048+02:00  INFO 11500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:52:36.146+02:00  INFO 11500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-07-19T09:52:37.183+02:00  INFO 11500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:52:37.199+02:00  INFO 11500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:52:37.200+02:00  INFO 11500 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:52:37.245+02:00  INFO 11500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:52:37.246+02:00  INFO 11500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2257 ms
+2024-07-19T09:52:37.697+02:00  INFO 11500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:52:37.749+02:00  INFO 11500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:52:37.784+02:00  INFO 11500 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:52:38.012+02:00  INFO 11500 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:52:38.029+02:00  INFO 11500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:52:38.178+02:00  INFO 11500 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@271b159e
+2024-07-19T09:52:38.179+02:00  INFO 11500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:52:38.203+02:00  WARN 11500 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:52:38.922+02:00  INFO 11500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:52:38.935+02:00  WARN 11500 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:52:38.936+02:00  WARN 11500 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:52:38.952+02:00  INFO 11500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:52:39.373+02:00  WARN 11500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:52:39.434+02:00  WARN 11500 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 60139f4d-4d54-47de-b3cc-6431252c6918
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:52:39.447+02:00  INFO 11500 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:52:39.926+02:00  INFO 11500 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:52:40.571+02:00  INFO 11500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:52:40.643+02:00  INFO 11500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:52:40.659+02:00  INFO 11500 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.216 seconds (process running for 6.715)
+2024-07-19T09:52:55.038+02:00  INFO 11500 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T09:52:55.039+02:00  INFO 11500 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T09:52:55.040+02:00  INFO 11500 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T09:58:22.435+02:00  INFO 11500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:58:22.444+02:00  INFO 11500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T09:58:22.449+02:00  INFO 11500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T09:58:25.851+02:00  INFO 15812 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 15812 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T09:58:25.854+02:00  INFO 15812 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T09:58:25.909+02:00  INFO 15812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T09:58:25.909+02:00  INFO 15812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T09:58:26.954+02:00  INFO 15812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T09:58:27.050+02:00  INFO 15812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-07-19T09:58:28.081+02:00  INFO 15812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T09:58:28.097+02:00  INFO 15812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T09:58:28.097+02:00  INFO 15812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T09:58:28.146+02:00  INFO 15812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T09:58:28.147+02:00  INFO 15812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2238 ms
+2024-07-19T09:58:28.550+02:00  INFO 15812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T09:58:28.599+02:00  INFO 15812 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T09:58:28.629+02:00  INFO 15812 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T09:58:28.848+02:00  INFO 15812 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T09:58:28.866+02:00  INFO 15812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T09:58:29.010+02:00  INFO 15812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a477e0a
+2024-07-19T09:58:29.011+02:00  INFO 15812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T09:58:29.034+02:00  WARN 15812 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T09:58:29.668+02:00  INFO 15812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T09:58:29.685+02:00  WARN 15812 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T09:58:29.686+02:00  WARN 15812 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "users" nie istnieje, pominięto
+2024-07-19T09:58:29.709+02:00  INFO 15812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T09:58:30.221+02:00  WARN 15812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T09:58:30.278+02:00  WARN 15812 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ff74ef40-bc81-403c-a419-4a1b1ed5bba9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T09:58:30.286+02:00  INFO 15812 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T09:58:30.677+02:00  INFO 15812 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T09:58:31.182+02:00  INFO 15812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T09:58:31.256+02:00  INFO 15812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T09:58:31.276+02:00  INFO 15812 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.908 seconds (process running for 6.414)
+2024-07-19T10:04:55.149+02:00  INFO 15812 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:04:55.158+02:00  INFO 15812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T10:04:55.163+02:00  INFO 15812 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T10:07:07.679+02:00  INFO 6700 --- [main] c.example.Konto.KontoApplicationTests    : Starting KontoApplicationTests using Java 22.0.1 with PID 6700 (started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T10:07:07.681+02:00  INFO 6700 --- [main] c.example.Konto.KontoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T10:07:08.678+02:00  INFO 6700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T10:07:08.773+02:00  INFO 6700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+2024-07-19T10:07:09.638+02:00  INFO 6700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T10:07:09.724+02:00  INFO 6700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T10:07:09.755+02:00  INFO 6700 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T10:07:10.024+02:00  INFO 6700 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T10:07:10.047+02:00  INFO 6700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T10:07:10.270+02:00  INFO 6700 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6c13019c
+2024-07-19T10:07:10.271+02:00  INFO 6700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T10:07:10.307+02:00  WARN 6700 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T10:07:11.254+02:00  INFO 6700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T10:07:11.296+02:00  WARN 6700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T10:07:11.297+02:00  WARN 6700 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "account_user" nie istnieje, pominięto
+2024-07-19T10:07:11.319+02:00  INFO 6700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:07:11.809+02:00  WARN 6700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T10:07:11.870+02:00  WARN 6700 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bfe1e234-ae50-4133-89ee-fe66d76dcce7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T10:07:11.877+02:00  INFO 6700 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T10:07:12.534+02:00  INFO 6700 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T10:07:13.357+02:00  INFO 6700 --- [main] c.example.Konto.KontoApplicationTests    : Started KontoApplicationTests in 6.021 seconds (process running for 6.956)
+2024-07-19T10:07:13.904+02:00  INFO 6700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:07:13.912+02:00  INFO 6700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T10:07:13.927+02:00  INFO 6700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T10:08:08.542+02:00  INFO 7772 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 7772 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T10:08:08.544+02:00  INFO 7772 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T10:08:08.587+02:00  INFO 7772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T10:08:08.587+02:00  INFO 7772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T10:08:09.616+02:00  INFO 7772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T10:08:09.709+02:00  INFO 7772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-07-19T10:08:10.708+02:00  INFO 7772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T10:08:10.737+02:00  INFO 7772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T10:08:10.737+02:00  INFO 7772 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T10:08:10.789+02:00  INFO 7772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T10:08:10.790+02:00  INFO 7772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2202 ms
+2024-07-19T10:08:11.219+02:00  INFO 7772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T10:08:11.278+02:00  INFO 7772 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T10:08:11.313+02:00  INFO 7772 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T10:08:11.560+02:00  INFO 7772 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T10:08:11.579+02:00  INFO 7772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T10:08:11.733+02:00  INFO 7772 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65038422
+2024-07-19T10:08:11.734+02:00  INFO 7772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T10:08:11.761+02:00  WARN 7772 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T10:08:12.384+02:00  INFO 7772 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T10:08:12.401+02:00  WARN 7772 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T10:08:12.401+02:00  WARN 7772 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "account_user" nie istnieje, pominięto
+2024-07-19T10:08:12.415+02:00  INFO 7772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:08:12.841+02:00  WARN 7772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T10:08:12.907+02:00  WARN 7772 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: edab0925-d96a-4489-b6be-fa7074f767b3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T10:08:12.917+02:00  INFO 7772 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T10:08:13.350+02:00  INFO 7772 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T10:08:13.952+02:00  INFO 7772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T10:08:14.032+02:00  INFO 7772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T10:08:14.046+02:00  INFO 7772 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 6.025 seconds (process running for 6.578)
+2024-07-19T10:08:16.211+02:00  INFO 7772 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T10:08:16.211+02:00  INFO 7772 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T10:08:16.213+02:00  INFO 7772 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-19T10:08:32.631+02:00  INFO 7772 --- [http-nio-8080-exec-4] c.e.Konto.functions.LoginController      : User not found: mikhab
+2024-07-19T10:08:52.480+02:00  INFO 7772 --- [http-nio-8080-exec-9] c.e.Konto.functions.LoginController      : Password mismatch for user: mikhab
+2024-07-19T10:11:42.849+02:00  INFO 7772 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:11:42.857+02:00  INFO 7772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T10:11:42.861+02:00  INFO 7772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T10:11:45.869+02:00  INFO 11252 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 11252 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T10:11:45.871+02:00  INFO 11252 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T10:11:45.915+02:00  INFO 11252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T10:11:45.915+02:00  INFO 11252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T10:11:46.869+02:00  INFO 11252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T10:11:46.965+02:00  INFO 11252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+2024-07-19T10:11:47.827+02:00  INFO 11252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T10:11:47.854+02:00  INFO 11252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T10:11:47.855+02:00  INFO 11252 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T10:11:47.901+02:00  INFO 11252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T10:11:47.901+02:00  INFO 11252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1985 ms
+2024-07-19T10:11:48.421+02:00  INFO 11252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T10:11:48.482+02:00  INFO 11252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T10:11:48.516+02:00  INFO 11252 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T10:11:48.779+02:00  INFO 11252 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T10:11:48.795+02:00  INFO 11252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T10:11:48.949+02:00  INFO 11252 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d55d91a
+2024-07-19T10:11:48.950+02:00  INFO 11252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T10:11:48.973+02:00  WARN 11252 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T10:11:49.628+02:00  INFO 11252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T10:11:49.643+02:00  WARN 11252 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T10:11:49.643+02:00  WARN 11252 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "account_user" nie istnieje, pominięto
+2024-07-19T10:11:49.659+02:00  INFO 11252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:11:50.044+02:00  WARN 11252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T10:11:50.100+02:00  WARN 11252 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2ce44e09-96cc-4d31-97d0-8c56b27d97d3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T10:11:50.109+02:00  INFO 11252 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T10:11:50.598+02:00  INFO 11252 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T10:11:51.130+02:00  INFO 11252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T10:11:51.208+02:00  INFO 11252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T10:11:51.221+02:00  INFO 11252 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.81 seconds (process running for 6.244)
+2024-07-19T10:11:56.730+02:00  INFO 11252 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T10:11:56.730+02:00  INFO 11252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T10:11:56.731+02:00  INFO 11252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T10:13:00.701+02:00  INFO 11252 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:13:00.709+02:00  INFO 11252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T10:13:00.713+02:00  INFO 11252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T10:13:03.839+02:00  INFO 18744 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 18744 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T10:13:03.842+02:00  INFO 18744 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T10:13:03.890+02:00  INFO 18744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T10:13:03.891+02:00  INFO 18744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T10:13:04.939+02:00  INFO 18744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T10:13:05.036+02:00  INFO 18744 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2024-07-19T10:13:06.084+02:00  INFO 18744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T10:13:06.103+02:00  INFO 18744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T10:13:06.103+02:00  INFO 18744 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T10:13:06.153+02:00  INFO 18744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T10:13:06.154+02:00  INFO 18744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2263 ms
+2024-07-19T10:13:06.559+02:00  INFO 18744 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T10:13:06.615+02:00  INFO 18744 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T10:13:06.647+02:00  INFO 18744 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T10:13:06.909+02:00  INFO 18744 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T10:13:06.927+02:00  INFO 18744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T10:13:07.103+02:00  INFO 18744 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ea0e08c
+2024-07-19T10:13:07.104+02:00  INFO 18744 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T10:13:07.131+02:00  WARN 18744 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T10:13:07.794+02:00  INFO 18744 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T10:13:07.811+02:00  WARN 18744 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T10:13:07.811+02:00  WARN 18744 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "account_user" nie istnieje, pominięto
+2024-07-19T10:13:07.825+02:00  INFO 18744 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:13:08.212+02:00  WARN 18744 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T10:13:08.277+02:00  WARN 18744 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f4f96e61-b49d-4949-bf7b-f93d6643b2cb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T10:13:08.287+02:00  INFO 18744 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T10:13:08.697+02:00  INFO 18744 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T10:13:09.157+02:00  INFO 18744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T10:13:09.235+02:00  INFO 18744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T10:13:09.249+02:00  INFO 18744 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.907 seconds (process running for 6.337)
+2024-07-19T10:13:36.167+02:00  INFO 18744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T10:13:36.168+02:00  INFO 18744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T10:13:36.169+02:00  INFO 18744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T10:13:39.114+02:00  INFO 18744 --- [http-nio-8080-exec-3] c.e.Konto.functions.LoginController      : Attempting to log in user: mikhab
+2024-07-19T10:13:39.208+02:00  INFO 18744 --- [http-nio-8080-exec-3] c.e.Konto.functions.LoginController      : User not found: mikhab
+2024-07-19T10:15:06.498+02:00  INFO 18744 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:15:06.506+02:00  INFO 18744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T10:15:06.513+02:00  INFO 18744 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T10:15:09.783+02:00  INFO 10932 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 10932 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T10:15:09.785+02:00  INFO 10932 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T10:15:09.830+02:00  INFO 10932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T10:15:09.830+02:00  INFO 10932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T10:15:10.825+02:00  INFO 10932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T10:15:10.928+02:00  INFO 10932 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2024-07-19T10:15:11.901+02:00  INFO 10932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T10:15:11.927+02:00  INFO 10932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T10:15:11.927+02:00  INFO 10932 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T10:15:11.976+02:00  INFO 10932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T10:15:11.977+02:00  INFO 10932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2147 ms
+2024-07-19T10:15:12.354+02:00  INFO 10932 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T10:15:12.403+02:00  INFO 10932 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T10:15:12.430+02:00  INFO 10932 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T10:15:12.742+02:00  INFO 10932 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T10:15:12.759+02:00  INFO 10932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T10:15:12.909+02:00  INFO 10932 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b2eccdc
+2024-07-19T10:15:12.910+02:00  INFO 10932 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T10:15:12.935+02:00  WARN 10932 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T10:15:13.577+02:00  INFO 10932 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T10:15:13.592+02:00  WARN 10932 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T10:15:13.592+02:00  WARN 10932 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "account_user" nie istnieje, pominięto
+2024-07-19T10:15:13.613+02:00  INFO 10932 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:15:13.997+02:00  WARN 10932 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T10:15:14.058+02:00  WARN 10932 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 98a4e074-775c-46f9-a419-98197487ce75
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T10:15:14.070+02:00  INFO 10932 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T10:15:14.490+02:00  INFO 10932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T10:15:14.936+02:00  INFO 10932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T10:15:15.009+02:00  INFO 10932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T10:15:15.030+02:00  INFO 10932 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.74 seconds (process running for 6.203)
+2024-07-19T10:15:18.662+02:00  INFO 10932 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T10:15:18.662+02:00  INFO 10932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T10:15:18.664+02:00  INFO 10932 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T10:15:39.742+02:00  INFO 10932 --- [http-nio-8080-exec-3] c.e.Konto.functions.LoginController      : Password mismatch for user: mikhab
+2024-07-19T10:15:56.168+02:00  INFO 10932 --- [http-nio-8080-exec-6] c.e.Konto.functions.LoginController      : Password mismatch for user: mikhab
+2024-07-19T10:21:59.402+02:00  INFO 10932 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:21:59.411+02:00  INFO 10932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T10:21:59.416+02:00  INFO 10932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-19T10:22:03.236+02:00  INFO 13796 --- [restartedMain] com.example.Konto.KontoApplication       : Starting KontoApplication using Java 22.0.1 with PID 13796 (C:\Users\p3_mh\Desktop\Konto\Konto\target\classes started by p3_mh in C:\Users\p3_mh\Desktop\Konto\Konto)
+2024-07-19T10:22:03.237+02:00  INFO 13796 --- [restartedMain] com.example.Konto.KontoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-07-19T10:22:03.277+02:00  INFO 13796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-19T10:22:03.278+02:00  INFO 13796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-19T10:22:04.209+02:00  INFO 13796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-19T10:22:04.307+02:00  INFO 13796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-07-19T10:22:05.209+02:00  INFO 13796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-19T10:22:05.224+02:00  INFO 13796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-19T10:22:05.224+02:00  INFO 13796 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-19T10:22:05.275+02:00  INFO 13796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-19T10:22:05.275+02:00  INFO 13796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1997 ms
+2024-07-19T10:22:05.750+02:00  INFO 13796 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-19T10:22:05.790+02:00  INFO 13796 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-19T10:22:05.824+02:00  INFO 13796 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-19T10:22:06.047+02:00  INFO 13796 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-19T10:22:06.063+02:00  INFO 13796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-19T10:22:06.215+02:00  INFO 13796 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6328760c
+2024-07-19T10:22:06.216+02:00  INFO 13796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-19T10:22:06.238+02:00  WARN 13796 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-19T10:22:06.955+02:00  INFO 13796 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-19T10:22:06.971+02:00  WARN 13796 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2024-07-19T10:22:06.971+02:00  WARN 13796 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : tabela "account_user" nie istnieje, pominięto
+2024-07-19T10:22:06.989+02:00  INFO 13796 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T10:22:07.361+02:00  WARN 13796 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-19T10:22:07.421+02:00  WARN 13796 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b0f9b9f7-d686-47a4-ad35-b8f2ddff6b94
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-07-19T10:22:07.444+02:00  INFO 13796 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-19T10:22:08.060+02:00  INFO 13796 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-07-19T10:22:08.558+02:00  INFO 13796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-19T10:22:08.647+02:00  INFO 13796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-19T10:22:08.662+02:00  INFO 13796 --- [restartedMain] com.example.Konto.KontoApplication       : Started KontoApplication in 5.933 seconds (process running for 6.493)
+2024-07-19T10:22:15.477+02:00  INFO 13796 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-19T10:22:15.477+02:00  INFO 13796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-19T10:22:15.478+02:00  INFO 13796 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-19T10:22:30.816+02:00  INFO 13796 --- [http-nio-8080-exec-6] c.e.Konto.functions.LoginController      : User logged in successfully: mikhab
+2024-07-19T12:37:49.522+02:00  INFO 13796 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-19T12:37:49.540+02:00  INFO 13796 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-19T12:37:49.546+02:00  INFO 13796 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

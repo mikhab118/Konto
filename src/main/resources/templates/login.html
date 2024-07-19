@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+<h1>Register</h1>
+<form id="registerForm">
+    <label for="registerUsername">Username:</label>
+    <input type="text" id="registerUsername" name="username"><br>
+    <label for="registerEmail">Email:</label>
+    <input type="email" id="registerEmail" name="email"><br>
+    <label for="registerPassword">Password:</label>
+    <input type="password" id="registerPassword" name="password"><br>
+    <button type="button" onclick="register()">Register</button>
+</form>
+
+<h1>Login</h1>
+<form id="loginForm">
+    <label for="loginUsername">Username:</label>
+    <input type="text" id="loginUsername" name="username"><br>
+    <label for="loginPassword">Password:</label>
+    <input type="password" id="loginPassword" name="password"><br>
+    <button type="button" onclick="login()">Login</button>
+</form>
+
+<script>
+    function register() {
+        var username = document.getElementById('registerUsername').value;
+        var email = document.getElementById('registerEmail').value;
+        var password = document.getElementById('registerPassword').value;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/api/auth/register", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            username: username,
+            email: email,
+            password: password
+        }));
+
+        xhr.onload = function() {
+            if (xhr.status == 200) {
+                alert('Registration successful');
+            } else {
+                alert('Registration failed: ' + xhr.responseText);
+            }
+        };
+    }
+
+    function login() {
+        var username = document.getElementById('loginUsername').value;
+        var password = document.getElementById('loginPassword').value;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "/api/auth/login", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            username: username,
+            password: password
+        }));
+
+        xhr.onload = function() {
+            if (xhr.status == 200) {
+                alert('Login successful');
+                window.location.href = '/home'; // Przekierowanie po udanym logowaniu
+            } else {
+                alert('Login failed: ' + xhr.responseText);
+            }
+        };
+    }
+</script>
+</body>
+</html>
