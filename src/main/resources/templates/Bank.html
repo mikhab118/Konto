@@ -1,10 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bank</title>
+    <title>Bank Page</title>
 </head>
 <body>
-<h1>Welcome to the Bank</h1>
-<!-- Dodaj tutaj inne funkcje i zawartość strony Bank -->
+<h1>Welcome to the Bank page!</h1>
+
+<h2>Transfer Funds</h2>
+<form action="/api/transactions/transfer" method="post">
+    <label for="sender">Sender Username:</label>
+    <input type="text" id="sender" name="senderUsername"><br>
+    <label for="receiver">Receiver Username:</label>
+    <input type="text" id="receiver" name="receiverUsername"><br>
+    <label for="transferAmount">Amount:</label>
+    <input type="number" id="transferAmount" name="amount"><br>
+    <button type="submit">Transfer</button>
+</form>
+
+<h2>Take a Loan</h2>
+<form action="/Bank" method="post">
+    <label for="loanUsername">Username:</label>
+    <input type="text" id="loanUsername" name="username"><br>
+    <label for="loanAmount">Amount:</label>
+    <input type="number" id="loanAmount" name="amount"><br>
+    <label for="rate">Interest Rate:</label>
+    <input type="number" id="rate" name="interestRate" step="0.01"><br>
+    <label for="due">Due Date:</label>
+    <input type="date" id="due" name="dateDue"><br>
+    <button type="submit">Take Loan</button>
+</form>
 </body>
 </html>
